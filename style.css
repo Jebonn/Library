@@ -1,0 +1,19 @@
+.book-shelf {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    gap: 64px;
+    padding: 32px;
+}
+
+.book {
+    display: grid;
+    outline-style: solid;
+    min-height: 300px;
+    min-width: 200px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.book__author, .book__title {
+    place-self: center;
+}
